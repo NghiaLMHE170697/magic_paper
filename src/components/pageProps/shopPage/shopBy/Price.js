@@ -5,38 +5,38 @@ const Price = () => {
   const priceList = [
     {
       _id: 950,
-      priceOne: 0.0,
-      priceTwo: 49.99,
+      priceOne: 1000,
+      priceTwo: 10000,
     },
     {
       _id: 951,
-      priceOne: 50.0,
-      priceTwo: 99.99,
+      priceOne: 10000,
+      priceTwo: 50000,
     },
     {
       _id: 952,
-      priceOne: 100.0,
-      priceTwo: 199.99,
+      priceOne: 50000,
+      priceTwo: 100000,
     },
     {
       _id: 953,
-      priceOne: 200.0,
-      priceTwo: 399.99,
+      priceOne: 100000,
+      priceTwo: 500000,
     },
     {
       _id: 954,
-      priceOne: 400.0,
-      priceTwo: 599.99,
+      priceOne: 500000,
+      priceTwo: 1000000,
     },
     {
       _id: 955,
-      priceOne: 600.0,
-      priceTwo: 1000.0,
+      priceOne: 1000000,
+      priceTwo: 1500000,
     },
   ];
   return (
     <div className="cursor-pointer">
-      <NavTitle title="Shop by Price" icons={false} />
+      <NavTitle title="Sắp xếp theo giá" icons={false} />
       <div className="font-titleFont">
         <ul className="flex flex-col gap-4 text-sm lg:text-base text-[#767676]">
           {priceList.map((item) => (
@@ -44,7 +44,7 @@ const Price = () => {
               key={item._id}
               className="border-b-[1px] border-b-[#F0F0F0] pb-2 flex items-center gap-2 hover:text-primeColor hover:border-gray-400 duration-300"
             >
-              ${item.priceOne.toFixed(2)} - ${item.priceTwo.toFixed(2)}
+              {item.priceOne.toFixed(1)} - {item.priceTwo.toFixed(1)} VND
             </li>
           ))}
         </ul>

@@ -1,0 +1,124 @@
+{
+    "categories": [
+        {
+            "_id": 1,
+            "name": "In ấn quảng cáo"
+        },
+        {
+            "_id": 2,
+            "name": "In nhanh"
+        },
+        {
+            "_id": 3,
+            "name": "In tem nhãn Decal"
+        },
+        {
+            "_id": 4,
+            "name": "Chân standee"
+        },
+        {
+            "_id": 5,
+            "name": "Quạt quảng cáo"
+        }
+    ],
+    "products": [
+        {
+            "_id": 1,
+            "name": "PHÔNG BẠT TẤT NIÊN",
+            "price": "30000",
+            "description": "Hỗ trợ thiết kế, In nhanh lấy gấp, Đóng khoen miễn phí, Có nhiều mẫu có sẵn",
+            "cid": 1
+        },
+        {
+            "_id": 2,
+            "name": "In Decal Sữa",
+            "price": "65000",
+            "description": "Đề can nhựa sữa 140 gam, Cán màng bóng hoặc mờ, Màu sắc in mực dầu chống nắng mưa",
+            "cid": 1
+        },
+        {
+            "_id": 3,
+            "name": "Decal lưới",
+            "price": "100000",
+            "description": "Decal lưới là một loại giấy dán có bề mặt chứa nhiều lỗ tròn li ti, giúp tạo ra hiệu ứng nhìn xuyên qua được từ bên trong ra nhưng không nhìn được từ bên ngoài vào. Decal lưới có thể in được nhiều hình ảnh, màu sắc và chữ viết theo ý thích của bạn, giúp bạn quảng cáo và trang trí kính một cách hiện đại và ấn tượng. Decal lưới cũng có lớp keo và lớp mực in bảo vệ chất lượng cao, giúp bám dính tốt trên kính và bảo vệ hình ảnh không bị phai màu. Decal lưới là một giải pháp quảng cáo và trang trí kính hiệu quả và tiện lợi.",
+            "cid": 1
+        },
+        {
+            "_id": 4,
+            "name": "In PP và PP cán Format",
+            "price": "65000",
+            "description": "Màu sắc: nhiều màu, Số mặt in: 1 mặt hoặc 2 mặt, Loại Giấy PP cán bóng hoặc mờ, Kỹ thuật in: In KTS, Gia công : đóng khoen,chừa biên, cán format, cắt thành phẩm, Hỗ trợ lấy hàng gấp trong ngày sau 2H làm việc",
+            "cid": 1
+        },
+        {
+            "_id": 5,
+            "name": "In nhanh giá rẻ",
+            "price": "500",
+            "description": "In màu 1 mặt hoặc 2 mặt, Loại giấy: Couche, in giấy for, namecard, voucher, các loại giấy phổ biến, Kích thước: theo yêu cầu khách hàng, Công nghệ in: in bằng máy conika mới nhất",
+            "cid": 2
+        },
+        {
+            "_id": 6,
+            "name": "Thẻ cào",
+            "price": "1200",
+            "description": "Màu sắc: in nhiều màu, Vật liệu: Giấy couche 300gsm hoặc in decal, Kích thước vị trí mã thẻ cào: 80x40 mm, Lưu ý đặc biệt: chống xuyên đèn mã thẻ cào",
+            "cid": 2
+        },
+        {
+            "_id": 7,
+            "name": "Bìa thư",
+            "price": "1000",
+            "description": "Hỗ trợ lấy hàng gấp trong ngày sau 2H làm việc",
+            "cid": 2
+        },
+        {
+            "_id": 8,
+            "name": "Túi Giấy",
+            "price": "25000",
+            "description": "Màu sắc: nhiều màu, Số mặt in: 1 mặt, Kỹ thuật in: In KTS, Gia Công : Chừa biên, dán biên đóng khoen, dán biên xỏ cây",
+            "cid": 2
+        },
+        {
+            "_id": 9,
+            "name": "Tem decal 7 màu",
+            "price": "1000",
+            "description": "Vật liệu in: nhựa tổng hợp, màu nền giống 7 sắc cầu vồng, Màu sắc: nhiều màu, Số mặt in: 1 mặt, Kỹ thuật in: in nhanh và in offser, Gia công: cán màng bóng hoặc mờ, bế thành phẩm theo yêu cầu, Thời Gian: in gấp lấy sau 2H",
+            "cid": 2
+        },
+        {
+            "_id": 10,
+            "name": "Tem decal xi bạc",
+            "price": "200",
+            "description": "Vật liệu in: nhựa tổng hợp ánh kim bạc, Màu sắc: nhiều màu, Số mặt in: 1 mặt, Cán Màng: cán bóng hoặc mờ, Kỹ thuật in: in nhanh và in offser, Gia công: cán màng bóng hoặc mờ, bế thành phẩm theo yêu cầu, Thời Gian: in gấp lấy sau 2H",
+            "cid": 2
+        },
+        {
+            "_id": 11,
+            "name": "In tem decal vỡ - tem bể",
+            "price": "90",
+            "description": "Vật liệu in: giấy decal giòn bể khi bị lực tác động, tem bảo hành, Màu sắc: nhiều màu, Số mặt in: 1 mặt, Kỹ thuật in: in nhanh và in offser, Thời Gian: in gấp lấy sau 2H",
+            "cid": 2
+        },
+        {
+            "_id": 12,
+            "name": "Chân standee đế nước",
+            "price": "650000",
+            "description": "Vật liệu: đế làm từ nhựa ABS, chống giữa bằng nhôm, Kích thước: tùy chỉnh từ 60x160 cm hoặc 80x180 cm, Lợi ích: có thể đổ nước hoặc cát vào đế để gia tăng thêm độ cứng và chắc chắn của standee, dễ dàng tháo lắp vận chuyển, Hỗ trợ lấy hàng gấp trong ngày sau 2H làm việc",
+            "cid": 2
+        },
+        {
+            "_id": 13,
+            "name": "Standee đế nước",
+            "price": "650000",
+            "description": " Kích thước: 80x180 cm chân đế cao 10 cm, 60x160 cm chân đế cao 10 cm, 60x120 cm chân đế cao 10 cm, Vật Liệu: chân đế bằng nhựa ABS, có thể đổ nước chống đổ, khung sắt sơn tĩnh điện",
+            "cid": 2
+        },
+        {
+            "_id": 14,
+            "name": "Standee sắt ngoài trời",
+            "price": "820000",
+            "description": "Kích thước: Yêu cầu hoặc có sẵn,80x180 cm chân đế cao 30 cm,60x160 cm chân đế cao 30 cm,60x120 cm chân đế cao 30 cm, Vật liệu: sắt vuông 2.5 cm, sơn phủ màu đen, Giá chưa bao gồm tấm in pp cán format",
+            "cid": 2
+        }
+    ]
+}
