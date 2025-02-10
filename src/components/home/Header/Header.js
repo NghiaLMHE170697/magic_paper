@@ -7,6 +7,7 @@ import { logo, logoLight } from "../../../assets/images";
 import Image from "../../designLayouts/Image";
 import { navBarList } from "../../../constants";
 import Flex from "../../designLayouts/Flex";
+import logo1 from "../../../assets/images/logo.jpg"
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(true);
@@ -32,7 +33,7 @@ const Header = () => {
         <Flex className="flex items-center justify-between h-full">
           <Link to="/">
             <div>
-              <Image className="w-20 object-cover" imgSrc={logo} />
+              <Image className="w-20 object-cover" imgSrc={logo1} />
             </div>
           </Link>
           <div>
@@ -106,11 +107,11 @@ const Header = () => {
                           transition={{ duration: 0.4 }}
                           className="text-sm flex flex-col gap-1"
                         >
-                          <li className="headerSedenavLi">New Arrivals</li>
-                          <li className="headerSedenavLi">Gudgets</li>
-                          <li className="headerSedenavLi">Accessories</li>
-                          <li className="headerSedenavLi">Electronics</li>
-                          <li className="headerSedenavLi">Others</li>
+                          <li className="headerSedenavLi">In ấn quảng cáo</li>
+                          <li className="headerSedenavLi">In nhanh</li>
+                          <li className="headerSedenavLi">In tem nhãn Decal</li>
+                          <li className="headerSedenavLi">Chân standee</li>
+                          <li className="headerSedenavLi">Quạt quảng cáo</li>
                         </motion.ul>
                       )}
                     </div>

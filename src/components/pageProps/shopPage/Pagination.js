@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import ReactPaginate from "react-paginate";
 import Product from "../../home/Products/Product";
-import { paginationItems } from "../../../constants";
-
-const items = paginationItems;
+// import { paginationItems } from "../../../constants";
+import data  from "../../../data/database.json"
+const items = data.products;
 function Items({ currentItems }) {
   return (
     <>
@@ -12,12 +12,10 @@ function Items({ currentItems }) {
           <div key={item._id} className="w-full">
             <Product
               _id={item._id}
-              img={item.img}
-              productName={item.productName}
+              img={item.image}
+              productName={item.name}
               price={item.price}
-              color={item.color}
-              badge={item.badge}
-              des={item.des}
+              des={item.description}
             />
           </div>
         ))}
