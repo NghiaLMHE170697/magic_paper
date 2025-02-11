@@ -17,7 +17,7 @@ import {
 export const navBarList = [
   {
     _id: 1001,
-    title: "Home",
+    title: "Trang chủ",
     link: "/",
   },
   {

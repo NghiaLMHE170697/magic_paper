@@ -48,14 +48,14 @@ const NewArrivals = () => {
   };
   return (
     <div className="w-full pb-16">
-      <Heading heading="New Arrivals" />
+      <Heading heading="Sản Phẩm Mới" />
       <Slider {...settings}>
         <div className="px-2">
           <Product
             _id="100001"
-            img={newArrOne}
-            productName="Round Table Clock"
-            price="44.00"
+            img="https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/home.webp"
+            productName="Phông bạt tết niên"
+            price="30,000d/m2"
             color="Black"
             badge={true}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
@@ -64,9 +64,9 @@ const NewArrivals = () => {
         <div className="px-2">
           <Product
             _id="100002"
-            img={newArrTwo}
-            productName="Smart Watch"
-            price="250.00"
+            img="https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/VOUCHER.webp"
+            productName="Thẻ voucher"
+            price="1,000d/1 tờ"
             color="Black"
             badge={true}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
@@ -75,9 +75,9 @@ const NewArrivals = () => {
         <div className="px-2">
           <Product
             _id="100003"
-            img={newArrThree}
-            productName="cloth Basket"
-            price="80.00"
+            img="https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/in-decal-sua---500x500-px.webp"
+            productName="Decal Sữa"
+            price="65,000d/m2"
             color="Mixed"
             badge={true}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
@@ -86,9 +86,9 @@ const NewArrivals = () => {
         <div className="px-2">
           <Product
             _id="100004"
-            img={newArrFour}
-            productName="Funny toys for babies"
-            price="60.00"
+            img="https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/in-quat-quang-cao.webp"
+            productName="In Quạt Quảng Cáo Trực tiếp"
+            price="4,500/1 Cây"
             color="Mixed"
             badge={false}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."

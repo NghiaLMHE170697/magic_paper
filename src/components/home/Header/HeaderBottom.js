@@ -48,7 +48,7 @@ const HeaderBottom = () => {
             className="flex h-14 cursor-pointer items-center gap-2 text-primeColor"
           >
             <HiOutlineMenuAlt4 className="w-5 h-5" />
-            <p className="text-[14px] font-normal">Shop by Category</p>
+            <p className="text-[14px] font-normal">Danh mục</p>
 
             {show && (
               <motion.ul
@@ -84,7 +84,7 @@ const HeaderBottom = () => {
               type="text"
               onChange={handleSearch}
               value={searchQuery}
-              placeholder="Search your products here"
+              placeholder="Tìm kiếm ở đây nha"
             />
             <FaSearch className="w-5 h-5" />
             {searchQuery && (
@@ -130,7 +130,7 @@ const HeaderBottom = () => {
               </div>
             )}
           </div>
-          <div className="flex gap-4 mt-2 lg:mt-0 items-center pr-6 cursor-pointer relative">
+          {/* <div className="flex gap-4 mt-2 lg:mt-0 items-center pr-6 cursor-pointer relative">
             <div onClick={() => setShowUser(!showUser)} className="flex">
               <FaUser />
               <FaCaretDown />
@@ -144,7 +144,7 @@ const HeaderBottom = () => {
               >
                 <Link to="/signin">
                   <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                    Login
+                    Đăng nhập 
                   </li>
                 </Link>
                 <Link onClick={() => setShowUser(false)} to="/signup">
@@ -168,7 +168,7 @@ const HeaderBottom = () => {
                 </span>
               </div>
             </Link>
-          </div>
+          </div> */}
         </Flex>
       </div>
     </div>
