@@ -17,6 +17,8 @@ const Banner = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
+    centerMode: true,
+    centerPadding: "200px",
     beforeChange: (prev, next) => {
       setDocActive(next);
     },
@@ -100,21 +102,21 @@ const Banner = () => {
     ],
   };
   return (
-    <div className="w-full bg-white">
+    <div className="w-full  bg-white">
       <Slider {...settings}>
         <Link to="/offer">
           <div>
-            <Image imgSrc={bannerImgOne} />
+            <Image imgSrc="https://www.innhanhsieure.com/data/upload/webp/INANDONGPHONG-TET.webp" />
           </div>
         </Link>
         <Link to="/offer">
           <div>
-            <Image imgSrc={bannerImgTwo} />
+            <Image imgSrc="https://www.innhanhsieure.com/data/upload/webp/INANDONGPHONG-TET.webp" />
           </div>
         </Link>
         <Link to="/offer">
           <div>
-            <Image imgSrc={bannerImgThree} />
+            <Image imgSrc="https://www.innhanhsieure.com/data/upload/webp/INANDONGPHONG-TET.webp"/>
           </div>
         </Link>
       </Slider>
