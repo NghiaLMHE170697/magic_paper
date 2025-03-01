@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import ReactPaginate from "react-paginate";
 import Product from "../../home/Products/Product";
-import { paginationItems } from "../../../constants";
+// import { paginationItems } from "../../../constants";
+import data from "../../../data/database.json"
+const items = data.products;
 
-const items = paginationItems;
 function Items({ currentItems }) {
   return (
     <>
@@ -12,12 +13,10 @@ function Items({ currentItems }) {
           <div key={item._id} className="w-full">
             <Product
               _id={item._id}
-              img={item.img}
-              productName={item.productName}
+              image={item.image}
+              name={item.name}
               price={item.price}
-              color={item.color}
-              badge={item.badge}
-              des={item.des}
+              description={item.description}
             />
           </div>
         ))}
@@ -25,23 +24,32 @@ function Items({ currentItems }) {
   );
 }
 
-const Pagination = ({ itemsPerPage }) => {
+const Pagination = ({ itemsPerPage, selectedCategory, sortOrder }) => {
   // Here we use item offsets; we could also use page offsets
   // following the API or data you're working with.
   const [itemOffset, setItemOffset] = useState(0);
   const [itemStart, setItemStart] = useState(1);
 
+  // Lọc sản phẩm theo category đã chọn
+  const filteredItems = selectedCategory
+    ? items.filter((product) => product.cid === selectedCategory)
+    : items;
+
+  // Sắp xếp sản phẩm theo giá dựa trên sortOrder
+  const sortedItems = [...filteredItems].sort((a, b) => {
+    return sortOrder === "asc" ? a.price - b.price : b.price - a.price;
+  });
   // Simulate fetching items from another resources.
   // (This could be items from props; or items loaded in a local state
   // from an API endpoint with useEffect and useState)
   const endOffset = itemOffset + itemsPerPage;
   //   console.log(`Loading items from ${itemOffset} to ${endOffset}`);
-  const currentItems = items.slice(itemOffset, endOffset);
-  const pageCount = Math.ceil(items.length / itemsPerPage);
+  const currentItems = sortedItems.slice(itemOffset, endOffset);
+  const pageCount = Math.ceil(sortedItems.length / itemsPerPage);
 
   // Invoke when user click to request another page.
   const handlePageClick = (event) => {
-    const newOffset = (event.selected * itemsPerPage) % items.length;
+    const newOffset = (event.selected * itemsPerPage) % sortedItems.length;
     setItemOffset(newOffset);
     // console.log(
     //   `User requested page number ${event.selected}, which is offset ${newOffset},`
@@ -67,11 +75,6 @@ const Pagination = ({ itemsPerPage }) => {
           containerClassName="flex text-base font-semibold font-titleFont py-10"
           activeClassName="bg-black text-white"
         />
-
-        <p className="text-base font-normal text-lightText">
-          Products from {itemStart === 0 ? 1 : itemStart} to {endOffset} of{" "}
-          {items.length}
-        </p>
       </div>
     </div>
   );
