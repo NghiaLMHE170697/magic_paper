@@ -33,7 +33,7 @@ const Header = () => {
         <Flex className="flex items-center justify-between h-full">
           <Link to="/">
             <div>
-              <Image className="w-20 object-cover" imgSrc={logo1} />
+              <Image className="w-20 object-cover" imgSrc="img/z6303108301671_a5b1c587af98a34c4c000249633d3c26.jpg" />
             </div>
           </Link>
           <div>
@@ -76,10 +76,10 @@ const Header = () => {
                       src={logoLight}
                       alt="logoLight"
                     />
-                    <ul className="text-gray-200 flex flex-col gap-2">
+                    <ul className="text-gray-200 flex flex-col gap-9">
                       {navBarList.map((item) => (
                         <li
-                          className="font-normal hover:font-bold items-center text-lg text-gray-200 hover:underline underline-offset-[4px] decoration-[1px] hover:text-white md:border-r-[2px] border-r-gray-300 hoverEffect last:border-r-0"
+                          className="font-normal hover:font-bold items-center text-mg text-gray-200 hover:underline underline-offset-[4px] decoration-[1px] hover:text-white md:border-r-[2px] border-r-gray-300 hoverEffect last:border-r-0"
                           key={item._id}
                         >
                           <NavLink
@@ -97,7 +97,7 @@ const Header = () => {
                         onClick={() => setCategory(!category)}
                         className="flex justify-between text-base cursor-pointer items-center font-titleFont mb-2"
                       >
-                        Shop by Category{" "}
+                        Danh mục{" "}
                         <span className="text-lg">{category ? "-" : "+"}</span>
                       </h1>
                       {category && (
@@ -120,7 +120,7 @@ const Header = () => {
                         onClick={() => setBrand(!brand)}
                         className="flex justify-between text-base cursor-pointer items-center font-titleFont mb-2"
                       >
-                        Shop by Brand
+                        Mua theo loại
                         <span className="text-lg">{brand ? "-" : "+"}</span>
                       </h1>
                       {brand && (
