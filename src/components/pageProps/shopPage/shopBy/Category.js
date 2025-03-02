@@ -30,7 +30,6 @@ const Category = ({setSelectedCategory, selectedCategory }) => {
           ))}
         </ul>
       </div>
-
     </div>
   );
 };
