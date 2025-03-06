@@ -30,7 +30,7 @@ const Header = () => {
   return (
     <div className="w-full h-20 bg-white sticky top-0 z-50 border-b-[1px] border-b-gray-200">
       <nav className="h-full px-4 max-w-container mx-auto relative">
-        <Flex className="flex items-center justify-between h-full">
+        <Flex className="flex items-center justify-between h-full mr-6">
           <Link to="/">
             <div>
               <Image className="w-20 object-cover" imgSrc="img/z6303108301671_a5b1c587af98a34c4c000249633d3c26.jpg" />
