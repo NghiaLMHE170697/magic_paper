@@ -12,23 +12,6 @@ const ProductInfo = ({ productInfo }) => {
       </p>
       <p className="text-base text-gray-600">{productInfo.description}</p>
 
-      <button
-        onClick={() =>
-          dispatch(
-            addToCart({
-              _id: productInfo._id,
-              name: productInfo.name,
-              quantity: 1,
-              image: productInfo.image,
-              price: productInfo.price,
-            })
-          )
-        }
-        className="w-full py-4 bg-primeColor hover:bg-black duration-300 text-white text-lg font-titleFont"
-      >
-        Add to Cart
-      </button>
-
       <p className="font-normal text-sm border border-orange-300 p-4 rounded-lg shadow-md">
         <span className="bg-yellow-400 text-red-600 font-bold px-3 py-1 rounded-md">
           NHÂN VIÊN TƯ VẤN VÀ BÁO GIÁ
@@ -36,7 +19,7 @@ const ProductInfo = ({ productInfo }) => {
         <div className="mt-4 space-y-3">
           <div className="flex items-center gap-2">
             <i className="fas fa-phone-alt text-red-600"></i>
-            <span className="text-lg font-semibold text-red-600">0969177461</span>
+            <span className="text-lg font-semibold text-red-600">0867795405</span>
           </div>
           <div className="flex items-center gap-2">
             <i className="fab fa-facebook text-blue-600"></i>
@@ -48,7 +31,7 @@ const ProductInfo = ({ productInfo }) => {
           </div>
           <div className="flex items-center gap-2">
             <i className="fas fa-map-marker-alt text-gray-700"></i>
-            <span className="text-gray-700">Đại học FPT Hà Nội</span>
+            <span className="text-gray-700">Thạch Thất, Hoà Lạc, Hà Nội</span>
           </div>
         </div>
       </p>

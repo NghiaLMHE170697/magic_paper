@@ -34,10 +34,10 @@ const Footer = () => {
           <FooterListTitle  title=" Thông tin về MAGIC PAPER" />
           <div className="flex flex-col gap-6">
             <p className="text-base w-full xl:w-[80%]">
-             Chúng tôi đặt chữ tín lên hàng đầu, khách vừa lòng mới làm, khách không vừa ý không buông
+              Chúng tôi đặt chữ tín lên hàng đầu, khách vừa lòng mới làm, khách không vừa ý không buông
             </p>
             <ul className="flex items-center gap-2">
-             
+
               <a
                 href="https://www.tiktok.com/@magicpaper1720?is_from_webapp=1&sender_device=pc"
                 target="_blank"
@@ -72,36 +72,33 @@ const Footer = () => {
           <FooterListTitle title="Hướng dẫn và thông tin" />
           <ul className="flex flex-col gap-2">
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-             - Quy trình đặt hàng và sản xuất 
+              - Quy trình đặt hàng và sản xuất
             </li>
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-             - Giao hàng và vận chuyển
+              - Giao hàng và vận chuyển
             </li>
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-             - Hình thức thanh toán 
+              - Hình thức thanh toán
             </li>
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-             - Hình ảnh sản xuất 
+              - Hình ảnh sản xuất
             </li>
-            
+
           </ul>
         </div>
         <div>
           <FooterListTitle title="Tư vấn đặt hàng " />
           <ul className="flex flex-col gap-2">
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Điện thoại: 0123456789 
+              Điện thoại: 0867795405
             </li>
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Zalo: 0123456789 
+              Zalo: 0867795405
             </li>
             <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Email: abc@gmail.com 
+              Địa chỉ: Thạch Thất, Hoà Lạc, Hà Nội
             </li>
-            <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              Địa chỉ: Hòa lạc - Thạch Thất -Hà Nội 
-            </li>
-            
+
           </ul>
         </div>
         <div className="col-span-2 flex flex-col items-center w-full px-4">
@@ -145,9 +142,8 @@ const Footer = () => {
             )}
 
             <Image
-              className={`w-[80%] lg:w-[60%] mx-auto ${
-                subscription ? "mt-2" : "mt-6"
-              }`}
+              className={`w-[80%] lg:w-[60%] mx-auto ${subscription ? "mt-2" : "mt-6"
+                }`}
               imgSrc={paymentCard}
             />
           </div>
