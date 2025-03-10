@@ -1,7 +1,11 @@
 import React from "react";
 
 const Heading = ({ heading }) => {
-  return <div className="text-3xl font-semibold pb-6">{heading}</div>;
+  return (
+    <h2 style={{ fontFamily: "Arial, sans-serif" }} className="text-2xl font-bold">
+      {heading}
+    </h2>
+  );
 };
 
 export default Heading;
