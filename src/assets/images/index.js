@@ -6,6 +6,10 @@ import bannerImgThree from "./banner/bannerImgThree.webp";
 import saleImgOne from "./sale/saleImgOne.webp";
 import saleImgTwo from "./sale/saleImgTwo.webp";
 import saleImgThree from "./sale/saleImgThree.webp";
+
+import Banner1 from "./banner1.png";
+import Banner2 from "./banner2.png";
+import Banner3 from "./banner3.png";
 // ============== Products Start here ====================
 // New Arrivals
 import newArrOne from "./products/newArrival/newArrOne.webp";
@@ -32,6 +36,9 @@ import paymentCard from "./payment.png";
 import emptyCart from "../images/emptyCart.png";
 
 export {
+  Banner1,
+  Banner2,
+  Banner3,
   logo,
   logoLight,
   bannerImgOne,

@@ -25,7 +25,7 @@ import Shop from "./pages/Shop/Shop";
 
 const Layout = () => {
   return (
-    <div>
+    <div style={{ background: "#ffe7ff" }}>
       <Header />
       <HeaderBottom />
       {/* <SpecialCase /> */}
