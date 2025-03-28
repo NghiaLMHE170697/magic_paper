@@ -16,7 +16,6 @@ const BestSellers = ({data}) => {
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 xl:grid-cols-4 gap-10">
       {firstFiveProducts.map((product) => (
           <div className="px-2" key={product._id}>
-           
             <Product
               _id={product._id}
               image={product.image} // Sửa từ `img` thành `image`
@@ -24,7 +23,7 @@ const BestSellers = ({data}) => {
               price={product.price} // Bỏ dấu `đ` vì bạn đã định dạng tiền tệ trong `Product`
               color="Mixed"
               badge={true}
-              des={product.description}
+              description={product.description}
             />
           </div>
         ))}

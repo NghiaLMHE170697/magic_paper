@@ -3,7 +3,7 @@ const FooterListTitle = ({ title }) => {
   return (
     <h3
       style={{ fontFamily: "Inter, sans-serif" }}
-      className="text-xl font-bold mb-6"
+      className="text-xl font-bold mb-6 text-white"
     >
       {title}
     </h3>

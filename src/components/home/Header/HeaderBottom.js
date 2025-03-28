@@ -48,9 +48,9 @@ const HeaderBottom = () => {
             ref={ref}
             className="flex h-14 cursor-pointer items-center gap-2 text-primeColor"
           >
-            <HiOutlineMenuAlt4 className="w-5 h-5" />
-            <p className="text-[14px] font-normal">Danh mục</p>
-            <p className="text-[14px] font-normal" style={{ fontWeight: 'bold', fontFamily: 'sans-serif' }}>MAGIC PAPER</p>
+            {/* <HiOutlineMenuAlt4 className="w-5 h-5" /> */}
+            {/* <p className="text-[14px] font-normal">Danh mục</p> */}
+            <p className="text-[30px] font-normal" style={{ fontWeight: 'bold', fontFamily: 'sans-serif' }}>MAGIC PAPER</p>
 
           </div>
           <div className="relative w-full lg:w-[600px] h-[50px] text-base text-primeColor bg-white flex items-center gap-2 justify-between px-6 rounded-xl">

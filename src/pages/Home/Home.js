@@ -13,11 +13,12 @@ const Home = () => {
       <Banner />
      
       <div className="max-w-container mx-auto px-4">
-        <Sale />
+    
         <NewArrivals data={data}/>
         <BestSellers data={data}/>
+           <SpecialOffers data={data} /> 
         <YearProduct data={data}/>
-        <SpecialOffers data={data} /> 
+     
         <BannerBottom />
       </div>
     </div>

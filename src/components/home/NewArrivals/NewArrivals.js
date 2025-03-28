@@ -52,15 +52,16 @@ const NewArrivals = ({data}) => {
       <Slider {...settings}>
         {firstFiveProducts.map((product) => (
           <div className="px-2" key={product._id}>
-           
             <Product
               _id={product._id}
-              image={product.image} // Sửa từ `img` thành `image`
-              name={product.name} // Sửa từ `productName` thành `name`
-              price={product.price} // Bỏ dấu `đ` vì bạn đã định dạng tiền tệ trong `Product`
+              image={product.image}
+              name={product.name}
+              price={product.price}
               color="Mixed"
               badge={true}
-              des={product.description}
+              description={product.description}
+              material={product.material}
+              warranty={product.warranty}
             />
           </div>
         ))}

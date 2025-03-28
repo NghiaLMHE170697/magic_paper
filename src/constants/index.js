@@ -27,8 +27,8 @@ export const navBarList = [
   },
   {
     _id: 1004,
-    title: "Contact",
-    link: "contact",
+    title: "Thông tin",
+    link: "/about",
   },
 ];
 // =================== NavBarList End here ======================

@@ -28,12 +28,12 @@ const Footer = () => {
     }
   };
   return (
-    <div className="w-full bg-[#F5F5F3] py-20">
-      <div className="max-w-container mx-auto grid grid-cols-1 md:grid-cols-2  xl:grid-cols-6 px-4 gap-10">
+    <div style={{backgroundColor: "#302f2f"}} className="w-full py-20">
+      <div className="max-w-container mx-auto grid grid-cols-1 md:grid-cols-2  xl:grid-cols-6 px-2 gap-10">
         <div className="col-span-2">
-          <FooterListTitle  title=" Thông tin về MAGIC PAPER" />
+          <FooterListTitle   title=" Thông tin về MAGIC PAPER" />
           <div className="flex flex-col gap-6">
-            <p className="text-base w-full xl:w-[80%]">
+            <p className="text-base w-full xl:w-[80%] text-white">
               Chúng tôi đặt chữ tín lên hàng đầu, khách vừa lòng mới làm, khách không vừa ý không buông
             </p>
             <ul className="flex items-center gap-2">
@@ -68,43 +68,43 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div>
+        <div className="col-span-2">
           <FooterListTitle title="Hướng dẫn và thông tin" />
           <ul className="flex flex-col gap-2">
-            <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              - Quy trình đặt hàng và sản xuất
+            <li className="font-titleFont text-base text-white hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
+              Quy trình đặt hàng và sản xuất
             </li>
-            <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              - Giao hàng và vận chuyển
+            <li className="font-titleFont text-base text-white hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
+              Giao hàng và vận chuyển
             </li>
-            <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              - Hình thức thanh toán
+            <li className="font-titleFont text-base  text-white hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
+              Hình thức thanh toán
             </li>
-            <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
-              - Hình ảnh sản xuất
+            <li className="font-titleFont text-base  text-white hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
+              Hình ảnh sản xuất
             </li>
 
           </ul>
         </div>
-        <div>
+        <div className="col-span-2">
           <FooterListTitle title="Tư vấn đặt hàng " />
           <ul className="flex flex-col gap-2">
-            <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
+            <li className="font-titleFont text-base  text-white hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
               Điện thoại: 0867795405
             </li>
-            <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
+            <li className="font-titleFont text-base  text-white hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
               Zalo: 0867795405
             </li>
-            <li className="font-titleFont text-base text-lightText hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
+            <li className="font-titleFont text-base  text-white hover:text-black hover:underline decoration-[1px] decoration-gray-500 underline-offset-2 cursor-pointer duration-300">
               Địa chỉ: Thạch Thất, Hoà Lạc, Hà Nội
             </li>
 
           </ul>
         </div>
-        <div className="col-span-2 flex flex-col items-center w-full px-4">
+        {/* <div className="col-span-2 flex flex-col items-center w-full px-4">
           <FooterListTitle title="Hãy phản hồi cho chúng tôi! Nếu bạn cần" />
           <div className="w-full">
-            <p className="text-center mb-4">
+            <p className="text-center mb-4  text-white">
               Mỗi trải nghiệm của quý khách hàng là niềm vinh dự của shop in ấn chúng tôi.
             </p>
             {subscription ? (
@@ -134,7 +134,7 @@ const Footer = () => {
                 </div>
                 <button
                   onClick={handleSubscription}
-                  className="bg-white text-lightText w-[30%] h-10 hover:bg-black hover:text-white duration-300 text-base tracking-wide"
+                  className="bg-white  text-white w-[30%] h-10 hover:bg-black hover:text-white duration-300 text-base tracking-wide"
                 >
                   Subscribe
                 </button>
@@ -147,7 +147,7 @@ const Footer = () => {
               imgSrc={paymentCard}
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

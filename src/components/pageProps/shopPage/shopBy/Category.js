@@ -4,8 +4,8 @@ import { ImPlus } from "react-icons/im";
 import NavTitle from "./NavTitle";
 import data from "../../../../data/database.json";
 
-const Category = ({setSelectedCategory, selectedCategory }) => {
-  const categories = data.categories;
+const Category = ({ setSelectedCategory, selectedCategory }) => {
+  const categories = [{ _id: null, name: "Toàn bộ sản phẩm"}, ...data.categories];
 
   const handleCategoryClick = (categoryId) => {
     setSelectedCategory(categoryId);
@@ -25,7 +25,6 @@ const Category = ({setSelectedCategory, selectedCategory }) => {
               }`}
             >
               {name}
-
             </li>
           ))}
         </ul>
@@ -33,5 +32,6 @@ const Category = ({setSelectedCategory, selectedCategory }) => {
     </div>
   );
 };
+
 
 export default Category;

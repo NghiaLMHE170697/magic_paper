@@ -25,136 +25,142 @@
         {
             "_id": 1,
             "name": "PHÔNG BẠT TẤT NIÊN",
-            "price": "30000",
-            "image":"https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/home.webp",
-            "description": "Hỗ trợ thiết kế, In nhanh lấy gấp, Đóng khoen miễn phí, Có nhiều mẫu có sẵn",
+            "price": "30000đ/M2",
+            "image": "https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/home.webp",
+            "description": "Phông bạt tất niên chuyên dùng cho các sự kiện, liên hoan, tổng kết cuối năm. Chúng tôi cung cấp dịch vụ in ấn chất lượng cao với hình ảnh sắc nét, màu sắc trung thực. Phông bạt có thể tùy chỉnh theo yêu cầu khách hàng với nhiều mẫu mã đa dạng. Sản phẩm được in trên vật liệu bạt Hiflex dày dặn, chống thấm nước, chống phai màu. Hỗ trợ thiết kế miễn phí, lấy hàng nhanh chóng. Đặc biệt, chúng tôi cung cấp dịch vụ đóng khoen miễn phí giúp việc treo phông bạt dễ dàng hơn. Phù hợp cho các công ty, tổ chức, nhà hàng và cá nhân muốn tạo không gian sự kiện chuyên nghiệp.",
+            "material": "Bạt Hiflex chất lượng cao, chống nước, chống phai màu.",
+            "warranty": "Bảo hành màu sắc 6 tháng trong điều kiện sử dụng bình thường.",
             "cid": 1
         },
         {
             "_id": 2,
             "name": "In Decal Sữa",
-            "price": "65000",
-            "image":"https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/in-decal-sua---500x500-px.webp",
-            "description": "Đề can nhựa sữa 140 gam, Cán màng bóng hoặc mờ, Màu sắc in mực dầu chống nắng mưa",
+            "price": "65000đ/M2",
+            "image": "https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/in-decal-sua---500x500-px.webp",
+            "description": "In decal sữa với độ bám dính tốt, bề mặt láng mịn, phù hợp cho các sản phẩm cần tem nhãn đẹp, sang trọng. Decal sữa có khả năng chống nước, bám mực tốt, không bị lem màu theo thời gian. Phù hợp sử dụng trong ngành mỹ phẩm, thực phẩm, đồ uống, và nhiều lĩnh vực khác. Công nghệ in mực dầu giúp màu sắc tươi sáng, bền màu dưới điều kiện thời tiết khắc nghiệt. Khách hàng có thể lựa chọn cán màng bóng hoặc mờ để tăng thêm độ bền cho sản phẩm. Chúng tôi cam kết giao hàng nhanh, đảm bảo đúng tiến độ cho khách hàng.",
+            "material": "Decal sữa dày 140gsm, cán màng tùy chọn.",
+            "warranty": "Bảo hành 3 tháng đối với điều kiện bảo quản tiêu chuẩn.",
             "cid": 1
         },
         {
             "_id": 3,
             "name": "Decal lưới",
-            "price": "100000",
-            "image":"https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/in-decal-luoi.webp",
-            "description": "Decal lưới là một loại giấy dán có bề mặt chứa nhiều lỗ tròn li ti, giúp tạo ra hiệu ứng nhìn xuyên qua được từ bên trong ra nhưng không nhìn được từ bên ngoài vào. Decal lưới có thể in được nhiều hình ảnh, màu sắc và chữ viết theo ý thích của bạn, giúp bạn quảng cáo và trang trí kính một cách hiện đại và ấn tượng. Decal lưới cũng có lớp keo và lớp mực in bảo vệ chất lượng cao, giúp bám dính tốt trên kính và bảo vệ hình ảnh không bị phai màu. Decal lưới là một giải pháp quảng cáo và trang trí kính hiệu quả và tiện lợi.",
+            "price": "100000đ/M2",
+            "image": "https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/in-decal-luoi.webp",
+            "description": "Decal lưới là giải pháp tối ưu cho các ứng dụng trang trí kính, quảng cáo trên cửa sổ, xe ô tô, hoặc văn phòng. Với bề mặt chứa hàng ngàn lỗ nhỏ li ti, decal lưới cho phép ánh sáng xuyên qua, giúp người bên trong nhìn ra ngoài nhưng người bên ngoài không thể nhìn vào trong. Sản phẩm có độ bám dính cao, khả năng chống nước, chịu được điều kiện môi trường ngoài trời khắc nghiệt. Công nghệ in ấn tiên tiến đảm bảo hình ảnh sắc nét, bền màu. Decal lưới là sự lựa chọn hoàn hảo cho các doanh nghiệp muốn quảng bá thương hiệu mà vẫn giữ được ánh sáng tự nhiên.",
+            "material": "Decal lưới PVC chuyên dụng, chống thấm nước.",
+            "warranty": "Bảo hành 6 tháng, chống phai màu.",
             "cid": 1
         },
         {
             "_id": 4,
             "name": "In PP và PP cán Format",
-            "price": "65000",
-            "image":"https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/in-pp-can-format.webp",
+            "price": "65000đ/M2",
+            "image": "https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/in-pp-can-format.webp",
             "description": "Màu sắc: nhiều màu, Số mặt in: 1 mặt hoặc 2 mặt, Loại Giấy PP cán bóng hoặc mờ, Kỹ thuật in: In KTS, Gia công : đóng khoen,chừa biên, cán format, cắt thành phẩm, Hỗ trợ lấy hàng gấp trong ngày sau 2H làm việc",
             "cid": 1
         },
         {
             "_id": 5,
             "name": "In nhanh giá rẻ",
-            "price": "500",
-            "image":"https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/500-x-500-px.webp",
+            "price": "500đ/Tờ",
+            "image": "https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/500-x-500-px.webp",
             "description": "In màu 1 mặt hoặc 2 mặt, Loại giấy: Couche, in giấy for, namecard, voucher, các loại giấy phổ biến, Kích thước: theo yêu cầu khách hàng, Công nghệ in: in bằng máy conika mới nhất",
             "cid": 2
         },
         {
             "_id": 6,
             "name": "Thẻ cào",
-            "price": "1200",
-            "image":"https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/thecao.webp",
+            "price": "1200đ/Thẻ",
+            "image": "https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/thecao.webp",
             "description": "Màu sắc: in nhiều màu, Vật liệu: Giấy couche 300gsm hoặc in decal, Kích thước vị trí mã thẻ cào: 80x40 mm, Lưu ý đặc biệt: chống xuyên đèn mã thẻ cào",
             "cid": 2
         },
         {
             "_id": 7,
             "name": "Bìa thư",
-            "price": "1000",
-            "image":"https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/bao-thu.webp",
+            "price": "1000đ/1 Cái",
+            "image": "https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/bao-thu.webp",
             "description": "Hỗ trợ lấy hàng gấp trong ngày sau 2H làm việc",
             "cid": 2
         },
         {
             "_id": 8,
             "name": "Túi Giấy",
-            "price": "25000",
-            "image":"https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/tui-giay-gia-re.webp",
+            "price": "25000đ/M2",
+            "image": "https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/tui-giay-gia-re.webp",
             "description": "Màu sắc: nhiều màu, Số mặt in: 1 mặt, Kỹ thuật in: In KTS, Gia Công : Chừa biên, dán biên đóng khoen, dán biên xỏ cây",
             "cid": 2
         },
         {
             "_id": 9,
             "name": "Tem decal 7 màu",
-            "price": "1000",
-            "image":"https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/tem-decal-7-mau-xuat-web.webp",
+            "price": "1000đ/Tem",
+            "image": "https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/tem-decal-7-mau-xuat-web.webp",
             "description": "Vật liệu in: nhựa tổng hợp, màu nền giống 7 sắc cầu vồng, Màu sắc: nhiều màu, Số mặt in: 1 mặt, Kỹ thuật in: in nhanh và in offser, Gia công: cán màng bóng hoặc mờ, bế thành phẩm theo yêu cầu, Thời Gian: in gấp lấy sau 2H",
             "cid": 3
         },
         {
             "_id": 10,
             "name": "Tem decal xi bạc",
-            "price": "200",
-            "image":"https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/In-tem-bac-XUAT-WEB.webp",
+            "price": "200đ/Tem",
+            "image": "https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/In-tem-bac-XUAT-WEB.webp",
             "description": "Vật liệu in: nhựa tổng hợp ánh kim bạc, Màu sắc: nhiều màu, Số mặt in: 1 mặt, Cán Màng: cán bóng hoặc mờ, Kỹ thuật in: in nhanh và in offser, Gia công: cán màng bóng hoặc mờ, bế thành phẩm theo yêu cầu, Thời Gian: in gấp lấy sau 2H",
             "cid": 3
         },
         {
             "_id": 11,
             "name": "In tem decal vỡ - tem bể",
-            "price": "90",
-            "image":"https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/tem-vo-bao-hanh-xuat-web.webp",
+            "price": "90đ/Tem",
+            "image": "https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/tem-vo-bao-hanh-xuat-web.webp",
             "description": "Vật liệu in: giấy decal giòn bể khi bị lực tác động, tem bảo hành, Màu sắc: nhiều màu, Số mặt in: 1 mặt, Kỹ thuật in: in nhanh và in offser, Thời Gian: in gấp lấy sau 2H",
             "cid": 3
         },
         {
             "_id": 12,
             "name": "Chân standee đế nước",
-            "price": "650000",
-            "image":"https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/Instandeegiare2.webp",
+            "price": "650000đ/Cây",
+            "image": "https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/Instandeegiare2.webp",
             "description": "Vật liệu: đế làm từ nhựa ABS, chống giữa bằng nhôm, Kích thước: tùy chỉnh từ 60x160 cm hoặc 80x180 cm, Lợi ích: có thể đổ nước hoặc cát vào đế để gia tăng thêm độ cứng và chắc chắn của standee, dễ dàng tháo lắp vận chuyển, Hỗ trợ lấy hàng gấp trong ngày sau 2H làm việc",
             "cid": 4
         },
         {
             "_id": 13,
             "name": "Standee đế nước",
-            "price": "650000",
-            "image":"https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/standee-de-nuoc-1681740700-.webp",
+            "price": "650000đ/Cây",
+            "image": "https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/standee-de-nuoc-1681740700-.webp",
             "description": " Kích thước: 80x180 cm chân đế cao 10 cm, 60x160 cm chân đế cao 10 cm, 60x120 cm chân đế cao 10 cm, Vật Liệu: chân đế bằng nhựa ABS, có thể đổ nước chống đổ, khung sắt sơn tĩnh điện",
             "cid": 4
         },
         {
             "_id": 14,
             "name": "Standee sắt ngoài trời",
-            "price": "820000",
-            "image":"https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/stande-sat-ngoai-troi.webp",
+            "price": "820000đ/Cây",
+            "image": "https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/stande-sat-ngoai-troi.webp",
             "description": "Kích thước: Yêu cầu hoặc có sẵn,80x180 cm chân đế cao 30 cm,60x160 cm chân đế cao 30 cm,60x120 cm chân đế cao 30 cm, Vật liệu: sắt vuông 2.5 cm, sơn phủ màu đen, Giá chưa bao gồm tấm in pp cán format",
             "cid": 4
         },
         {
             "_id": 15,
             "name": "Cắt Chữ Decal",
-            "price": "120000",
-            "image":"https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/ct-ch-vi-tinh.webp",
+            "price": "120000đ/M2",
+            "image": "https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/ct-ch-vi-tinh.webp",
             "description": "Cắt chữ Decal theo yêu cầu, Bế cắt decal, sữa, decal kính mờ, decal trong, và các loại decal quảng cáo, Máy cắt chữ decal nhật, độ chính xác cao.",
             "cid": 5
         },
         {
             "_id": 16,
             "name": "Hình ảnh sản xuất Quạt",
-            "price": "4200",
-            "image":"https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/Hinh-anh-san-xuat-quat-quang-cao.webp",
+            "price": "4200đ/Cây",
+            "image": "https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/Hinh-anh-san-xuat-quat-quang-cao.webp",
             "description": " Màu sắc cán: tùy chọn theo yêu cầu, Thời gian sản xuất: công nghệ hiện đại hóa 1 ngày có thể sản xuất 20.000 cây quạt, Giao Hàng: Miễn phí giao trong nội thành TP. HCM, Giao hàng toàn quốc theo nhà xe hoặc vận chuyển nhanh cước chuyển phát khách hàng chịu phí.",
             "cid": 5
         },
         {
             "_id": 17,
             "name": "In Quạt Quảng Cáo Tròn",
-            "price": "4500",
-            "image":"https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/in-quat-quang-cao-truc-tiep-hinh-tron-01-1683947449-.webp",
+            "price": "4500/Cây",
+            "image": "https://www.innhanhsieure.com/thumb/500x500/1/data/upload/webp/in-quat-quang-cao-truc-tiep-hinh-tron-01-1683947449-.webp",
             "description": "Lá quạt giấy cứng Bistol 350 gam, Cán quạt bằng nhựa PP, màu sắc cán tùy chọn, Cán màng bóng hoặc mờ bảo vệ màu sắc in ấn,  Đa dạng mẫu lá quạt, lá có thể làm theo hình yêu cầu, In nhanh giá thành rẻ, Giao Hàng: Miễn phí giao trong nội thành TP. HCM, Giao hàng toàn quốc theo nhà xe hoặc vận chuyển nhanh cước chuyển phát khách hàng chịu phí.",
             "cid": 5
         }

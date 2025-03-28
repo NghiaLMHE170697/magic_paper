@@ -17,6 +17,8 @@ function Items({ currentItems }) {
               name={item.name}
               price={item.price}
               description={item.description}
+              material={item.material}
+              warranty={item.warranty}
             />
           </div>
         ))}
@@ -24,7 +26,7 @@ function Items({ currentItems }) {
   );
 }
 
-const Pagination = ({ itemsPerPage, selectedCategory, sortOrder }) => {
+const Pagination = ({ itemsPerPage, selectedCategory}) => {
   // Here we use item offsets; we could also use page offsets
   // following the API or data you're working with.
   const [itemOffset, setItemOffset] = useState(0);
@@ -35,21 +37,17 @@ const Pagination = ({ itemsPerPage, selectedCategory, sortOrder }) => {
     ? items.filter((product) => product.cid === selectedCategory)
     : items;
 
-  // Sắp xếp sản phẩm theo giá dựa trên sortOrder
-  const sortedItems = [...filteredItems].sort((a, b) => {
-    return sortOrder === "asc" ? a.price - b.price : b.price - a.price;
-  });
   // Simulate fetching items from another resources.
   // (This could be items from props; or items loaded in a local state
   // from an API endpoint with useEffect and useState)
   const endOffset = itemOffset + itemsPerPage;
   //   console.log(`Loading items from ${itemOffset} to ${endOffset}`);
-  const currentItems = sortedItems.slice(itemOffset, endOffset);
-  const pageCount = Math.ceil(sortedItems.length / itemsPerPage);
+  const currentItems = filteredItems.slice(itemOffset, endOffset);
+  const pageCount = Math.ceil(filteredItems.length / itemsPerPage);
 
   // Invoke when user click to request another page.
   const handlePageClick = (event) => {
-    const newOffset = (event.selected * itemsPerPage) % sortedItems.length;
+    const newOffset = (event.selected * itemsPerPage) % filteredItems.length;
     setItemOffset(newOffset);
     // console.log(
     //   `User requested page number ${event.selected}, which is offset ${newOffset},`

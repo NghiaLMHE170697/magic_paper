@@ -11,19 +11,19 @@ const Breadcrumbs = ({ prevLocation, title }) => {
 
   return (
     <div className="w-full py-10 xl:py-10 flex flex-col gap-3">
-      <h1 className="text-5xl text-primeColor font-titleFont font-bold">
+      <h1 className="text-5xl text-primeColor font-bodyFont font-bold">
         {title}
       </h1>
-      <p className="text-sm font-normal text-lightText capitalize flex items-center">
-        <span> {prevLocation === "" ? "Home" : prevLocation}</span>
+      {/* <p className="text-sm font-normal text-lightText capitalize flex items-center">
+        <span> {prevLocation === "" ? "Trang chủ" : prevLocation}</span>
 
         <span className="px-1">
           <HiOutlineChevronRight />
         </span>
         <span className="capitalize font-semibold text-primeColor">
-          {locationPath}
+          {title}
         </span>
-      </p>
+      </p> */}
     </div>
   );
 };

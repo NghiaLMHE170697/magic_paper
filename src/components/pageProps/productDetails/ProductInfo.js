@@ -1,42 +1,78 @@
-import React from "react";
-import { useDispatch } from "react-redux";
-import { addToCart } from "../../../redux/orebiSlice";
+import React, { useState } from "react";
+import messengerIcon from "../../../assets/images/messenger.png";
 
-const ProductInfo = ({ productInfo }) => {
-  const dispatch = useDispatch();
+const ProductInfo = ({ productInfo = {} }) => {
+  console.log(productInfo);
+
+  const [showFullDescription, setShowFullDescription] = useState(false);
+  const maxDescriptionLength = 100; // Giới hạn ký tự mô tả trước khi cắt
+
   return (
-    <div className="flex flex-col gap-5">
-      <h2 className="text-4xl font-semibold">{productInfo.name}</h2>
-      <p className="text-xl font-semibold">
-        {new Intl.NumberFormat("vi-VN", { style: "currency", currency: "VND" }).format(productInfo.price)}
-      </p>
-      <p className="text-base text-gray-600">{productInfo.description}</p>
+    <div className="flex flex-col">
+      <div className="font-normal text-sm border border-orange-300 p-4 rounded-lg shadow-md">
+        <div className="my-5">
+          {/* Tên sản phẩm */}
+          <h2 className="text-4xl font-semibold">{productInfo?.name || "Không có tên"}</h2>
 
-      <p className="font-normal text-sm border border-orange-300 p-4 rounded-lg shadow-md">
-        <span className="bg-yellow-400 text-red-600 font-bold px-3 py-1 rounded-md">
-          NHÂN VIÊN TƯ VẤN VÀ BÁO GIÁ
-        </span>
-        <div className="mt-4 space-y-3">
-          <div className="flex items-center gap-2">
-            <i className="fas fa-phone-alt text-red-600"></i>
-            <span className="text-lg font-semibold text-red-600">0867795405</span>
+          {/* Giá sản phẩm */}
+          <div className="mt-2">
+            <p className="text-xl font-semibold">
+              {productInfo?.price
+                ? productInfo?.price
+                : "Giá không có sẵn"}
+            </p>
           </div>
-          <div className="flex items-center gap-2">
-            <i className="fab fa-facebook text-blue-600"></i>
-            <a href="https://www.facebook.com/profile.php?id=61565637313680" className="text-blue-600 hover:underline">Facebook</a>
+
+          {/* Chất liệu */}
+          {productInfo?.material && (
+            <div className="mt-2">
+              <p className="text-base font-bold">
+                Chất liệu: <span className="text-base font-normal">{productInfo.material}</span>
+              </p>
+            </div>
+          )}
+
+          {/* Bảo hành */}
+          {productInfo?.warranty && (
+            <div className="mt-2">
+              <p className="text-base font-bold">
+                Bảo hành: <span className="text-base font-normal">{productInfo.warranty}</span>
+              </p>
+            </div>
+          )}
+
+          {/* Mô tả sản phẩm */}
+          <div className="mt-2">
+            <p className="text-base font-normal">
+              {productInfo?.description
+                ? showFullDescription
+                  ? productInfo.description
+                  : productInfo.description.slice(0, maxDescriptionLength) + "..."
+                : "Không có mô tả"}
+            </p>
+            {productInfo?.description?.length > maxDescriptionLength && (
+              <button
+                className="text-blue-500 hover:underline text-sm mt-1"
+                onClick={() => setShowFullDescription(!showFullDescription)}
+              >
+                {showFullDescription ? "Thu gọn" : "Xem thêm"}
+              </button>
+            )}
           </div>
-          <div className="flex items-center gap-2">
-            <i className="fab fa-tiktok text-black"></i>
-            <a href="https://www.tiktok.com/@magicpaper1720?is_from_webapp=1&sender_device=pc" className="text-black hover:underline">TikTok</a>
-          </div>
-          <div className="flex items-center gap-2">
-            <i className="fas fa-map-marker-alt text-gray-700"></i>
-            <span className="text-gray-700">Thạch Thất, Hoà Lạc, Hà Nội</span>
+
+          {/* Nút Liên hệ */}
+          <div className="mt-4">
+            <a
+              href="http://m.me/61565637313680"
+              className="flex items-center justify-center bg-pink-300 text-white text-lg font-bodyFont hover:bg-pink-500 duration-300 font-bold rounded-lg p-4 space-x-2"
+            >
+              <img src={messengerIcon} alt="Messenger" className="w-6 h-6" />
+              <span>Liên hệ ngay để được tư vấn</span>
+            </a>
           </div>
         </div>
-      </p>
-
-    </div>
+      </div>
+    </div >
   );
 };
 
